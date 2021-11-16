@@ -1,6 +1,6 @@
 # Dotfiles
 
-##Zsh
+## Zsh
 
 1. ZSH shell ```sudo pacman -S zsh```
 
@@ -10,7 +10,7 @@
 
 4. Exa ```sudo pacman -S exa```
 
-###Plugins
+### Plugins
 
 - zsh-autosuggestions ```git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions```
 
