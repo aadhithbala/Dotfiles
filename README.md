@@ -1,5 +1,15 @@
 # Dotfiles
 
+## Screenshots
+
+![Neofetch](screenshot/neofetch.png)
+
+![Spotify](screenshot/spot_cava.png)
+
+![Htop](screenshot/htop.png)
+
+![Nvim/Ranger](screenshot/nvim_ranger.png)
+
 ## Zsh
 
 1. ZSH shell ```sudo pacman -S zsh```
