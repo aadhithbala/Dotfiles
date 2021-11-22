@@ -152,7 +152,7 @@ StScrollBar {
   -barlevel-height: 0.3em;
   -barlevel-background-color: #373a4b;
   -barlevel-border-color: black;
-  -barlevel-active-background-color: #50fa7a;
+  -barlevel-active-background-color: #45bde2;
   -barlevel-active-border-color: #50fa7a;
   -barlevel-border-width: 0;
   -barlevel-handle-radius: 7.5px;
@@ -270,7 +270,7 @@ StScrollBar {
     background-color: #ff5555;
     color: #fff; }
     .end-session-dialog .modal-dialog-linked-button:last-child:hover, .end-session-dialog .modal-dialog-linked-button:last-child:focus {
-      background: #ff2c2c;
+      background: #c71f1f;
       color: #fff; }
 
 .end-session-dialog-list {
@@ -301,7 +301,7 @@ StScrollBar {
   background-size: contain; }
 
 .end-session-dialog-shutdown-icon {
-  color: #ff3c3c;
+  color: #c71f1f;
   width: 48px;
   height: 48px; }
 
