@@ -60,4 +60,8 @@ do check it out
 
 - UI - Lexend Deca 
 - Terminal - Terminal font is usually a toss up between JetBrainsMono, Cascadia and Apple's SF Mono
+- Documents - Roboto Regular
 
+Here's how they look
+
+![](screenshot/fonts.png)
