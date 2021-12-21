@@ -55,13 +55,10 @@ Restore the last used color from a config file
 
 ## Fonts
 
-As we all know font rendering is pretty meh in Linux, These fonts seem to be working out pretty good for me
-do check it out
+As we all know font rendering is pretty meh in Linux, These fonts seem to be working out pretty good for me.
 
 - UI - Lexend Deca 
-- Terminal - Terminal font is usually a toss up between JetBrainsMono, Cascadia and Apple's SF Mono
+- Terminal - Terminal font is usually a toss up between JetBrainsMono, Cascadia Code and Apple's SF Mono
 - Documents - Roboto Regular
 
-Here's how they look
-
-![](screenshot/fonts.png)
+![Here's how they look](screenshot/fonts.png)
