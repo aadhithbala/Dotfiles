@@ -25,6 +25,8 @@
     display: none !important;
 }
 
+html.private {
+    --in-content-page-background: #151C24 !important;}
 
 
 /* Gets rid of search bar in private browsing mode */
