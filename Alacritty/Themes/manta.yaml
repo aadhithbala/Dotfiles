@@ -1,0 +1,30 @@
+#Manta Color scheme
+
+colors:
+  # Default colors
+  primary:
+    background: '#20212b'
+    foreground: '#f8f8f2'
+
+  # Normal colors
+  normal:
+    black: '#1E2541'
+    red: '#F0719B'
+    green: '#5AF7B0'
+    yellow: '#FFA56B'
+    blue: '#6cc3d1'
+    magenta: '#C792EA'
+    cyan: '#89DDFF'
+    white: '#EEFFFF'
+
+  # Bright colors
+  bright:
+    black: '#354274'
+    red: '#F0719B'
+    green: '#2CE592'
+    yellow: '#FFA56B'
+    blue: '#6cc3d1'
+    magenta: '#A742EA'
+    cyan: '#47BAE8'
+    white: '#DEE6E7'
+theme: Manta
