@@ -3,7 +3,7 @@
 *****************/
 /* GLOBALS */
 stage {
-  font-size: 12pt;
+  font-size: 12pt; /*base fonts size*/
   color: #C3C7D1; }
 
 /* WIDGETS */
@@ -140,7 +140,7 @@ StScrollBar {
 /* Slider */
 .slider {
   height: 1em;
-  color: #ffffff;
+  color: #cbcb9f;
   border-color: black;
   -slider-height: 0.1em;
   -slider-background-color: #373a4b;
@@ -149,10 +149,10 @@ StScrollBar {
   -slider-active-border-color: #50fa7a;
   -slider-border-width: 0;
   -slider-handle-radius: 6px;
-  -barlevel-height: 0.3em;
+  -barlevel-height: 0.3em; /*slider thickness*/
   -barlevel-background-color: #373a4b;
   -barlevel-border-color: black;
-  -barlevel-active-background-color: #45bde2;
+  -barlevel-active-background-color: #bd93f9;
   -barlevel-active-border-color: #50fa7a;
   -barlevel-border-width: 0;
   -barlevel-handle-radius: 7.5px;
@@ -270,7 +270,7 @@ StScrollBar {
     background-color: #ff5555;
     color: #fff; }
     .end-session-dialog .modal-dialog-linked-button:last-child:hover, .end-session-dialog .modal-dialog-linked-button:last-child:focus {
-      background: #c71f1f;
+      background: #ff2c2c;
       color: #fff; }
 
 .end-session-dialog-list {
@@ -301,7 +301,7 @@ StScrollBar {
   background-size: contain; }
 
 .end-session-dialog-shutdown-icon {
-  color: #c71f1f;
+  color: #ff3c3c;
   width: 48px;
   height: 48px; }
 
@@ -505,7 +505,7 @@ StScrollBar {
     border-radius: 7px; }
   .popup-menu .popup-menu-item {
     spacing: 6px;
-    padding: 8.5px; }
+    padding: 8.5px; } /*controls line spacing*/
     .popup-menu .popup-menu-item:ltr {
       padding-right: 1.75em;
       padding-left: 0; }
