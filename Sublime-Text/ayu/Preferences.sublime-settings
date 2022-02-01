@@ -1,0 +1,10 @@
+{
+    // ayu theme: Use native titlebars on macOs
+    "ui_native_titlebar": false,
+
+    // ayu theme: Show separators between panels
+    "ui_separator": false,
+
+    // ayu theme: Display wider scrollbars
+    "ui_wide_scrollbars": false
+}
