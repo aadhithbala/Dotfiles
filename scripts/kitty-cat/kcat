@@ -26,9 +26,8 @@ banner () {
     ${BLUE}/\___/\ 			          
     ${BLUE}\ -.- / ${RED} ┃ ┃┛━┏┛━┏┛┃ ┃ ${GREEN} ┏━┛┏━┃━┏┛  
     ${BLUE}'-.^.-' ${RED} ┏┛ ┃ ┃  ┃ ━┏┛ ${GREEN} ┃  ┏━┃ ┃   
-    ${BLUE}  /'\   ${RED} ┛ ┛┛ ┛  ┛  ┛  ${GREEN} ━━┛┛ ┛ ┛   
+    ${BLUE}  /'\   ${RED} ┛ ┛┛ ┛  ┛  ┛  ${GREEN} ━━┛┛ ┛ ┛ "  
 
-    ${BLUE}[${RED}*${BLUE}] ${ORANGE}By- Aditya Shakya ${RED}//${ORANGE} adi1090x"
 }
 
 ## Script Termination
