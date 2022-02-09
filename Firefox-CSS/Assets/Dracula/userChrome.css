@@ -34,6 +34,7 @@
     background-color: transparent !important;
 }
 
+
 /* Changes the new tab favicon */
 .tabbrowser-tab[label^="New Tab"] .tab-icon-image {
   list-style-image: none !important;
@@ -54,4 +55,14 @@
   background: url("firefox_halo_with_paw_private_favicon.png") !important;
   background-size: 16px 16px !important;
   background-repeat: no-repeat !important;
+}
+
+#identity-box[pageproxystate="valid"].extensionPage > .identity-box-button {
+background: transparent !important;
+padding-left:3px !important;
+padding-right:4px !important;
+}
+
+#identity-box.extensionPage label{
+display: none !important;
 }
