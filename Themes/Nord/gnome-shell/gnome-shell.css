@@ -704,10 +704,11 @@ StScrollBar {
 /* TOP BAR */
 #panel {
   background-gradient-direction: none;
-  background-color: #1d2128;
+  background-color: rgba(29, 33, 40, 0.9);
   /* transition from solid to transparent */
   transition-duration: 500ms;
-  font-weight: bold;
+  font-weight: normal;
+  font-family: 'Product Sans Regular';
   height: 2em;
   padding: 2px 2px; }
   #panel #panelLeft, #panel #panelCenter {

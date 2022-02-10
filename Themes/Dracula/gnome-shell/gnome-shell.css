@@ -4,7 +4,7 @@
 /* GLOBALS */
 stage {
   font-size: 12pt; /*base fonts size*/
-  color: #C3C7D1; }
+  color: #f8f8f2; }
 
 /* WIDGETS */
 /* Buttons */
@@ -495,7 +495,7 @@ StScrollBar {
 .popup-menu {
   min-width: 15em;
   background-color: transparent;
-  color: #C3C7D1; }
+  color: #f8f8f2; }
   .popup-menu .popup-sub-menu {
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); }
@@ -717,7 +717,8 @@ StScrollBar {
   background-color: rgba(40, 42, 54, 0.95);
   /* transition from solid to transparent */
   transition-duration: 500ms;
-  font-weight: bold;
+  font-weight: normal;
+  font-family: 'Product Sans Regular';
   height: 2em;
   padding: 2px 2px; }
   #panel.unlock-screen, #panel.login-screen, #panel.lock-screen {
