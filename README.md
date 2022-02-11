@@ -2,13 +2,13 @@
 
 ## Screenshots
 
-![Neofetch](screenshot/neofetch.png)
+![Neofetch](src/neofetch.png)
 
-![Spotify](screenshot/spot_cava.png)
+![Spotify](src/spot_cava.png)
 
-![Htop](screenshot/htop.png)
+![Htop](src/htop.png)
 
-![Nvim/Ranger](screenshot/nvim_ranger.png)
+![Nvim/Ranger](src/nvim_ranger.png)
 
 ## Zsh
 
@@ -61,4 +61,4 @@ As we all know font rendering is pretty meh in Linux, These fonts seem to be wor
 - Terminal - Terminal font is usually a toss up between JetBrainsMono, Cascadia Code and Apple's SF Mono
 - Documents - Roboto Regular
 
-![Here's how they look](screenshot/fonts.png)
+![Here's how they look](src/fonts.png)
