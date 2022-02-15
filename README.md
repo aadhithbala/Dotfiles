@@ -2,13 +2,7 @@
 
 ## Screenshots
 
-![Neofetch](src/neofetch.png)
-
-![Spotify](src/spot_cava.png)
-
-![Htop](src/htop.png)
-
-![Nvim/Ranger](src/nvim_ranger.png)
+![Gruvbox](src/model.jpg)
 
 ## Zsh
 
