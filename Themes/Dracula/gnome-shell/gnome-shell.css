@@ -717,8 +717,8 @@ StScrollBar {
   background-color: rgba(40, 42, 54, 0.95);
   /* transition from solid to transparent */
   transition-duration: 500ms;
-  font-weight: normal;
-  font-family: 'Product Sans Regular';
+  font-weight: bold;
+  font-family: 'JetBrainsMono Nerd Font';
   height: 2em;
   padding: 2px 2px; }
   #panel.unlock-screen, #panel.login-screen, #panel.lock-screen {
