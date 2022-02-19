@@ -195,18 +195,16 @@ bell:
 #background_opacity: 1.0
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>="
-
   # When set to `true`, selected text will be copied to the primary clipboard.
 cursor:
   style:
-  # Cursor style
-   shape: Underline
-  # Values for `style`:
-  #   - ▇ Block
-  #   - _ Underline
-  #   - | Beam
-
-   blinking: Always
+    # Cursor style
+    shape: Underline
+    # Values for `style`:
+    #   - ▇ Block
+    #   - _ Underline
+    #   - | Beam
+    blinking: Always
 
   blink_interval: 350
   # Cursor blinking state
@@ -216,12 +214,10 @@ cursor:
   #   - Off: Disable blinking by default
   #   - On: Enable blinking by default
   #   - Always: Force the cursor to always blink
-  
   save_to_clipboard: false
 
   vi_mode_style: none
   # Cursor blinking interval in milliseconds.
-
   # If this is `true`, the cursor will be rendered as a hollow box when the
   # window is not focused.
   unfocused_hollow: true
@@ -250,31 +246,30 @@ live_config_reload: true
 # directory of the parent process will be used.
 working_directory: None
 colors:
-  # Default colors
+  name: Ashes (dark)
+  author: Chris Kempson
   primary:
-    #original background: '#2e3340'
-    background: '#292e39'
-    foreground: '#D8DEE9'
-
-  # Normal colors
+    background: "#1c2023"
+    foreground: "#c7ccd1"
+  cursor:
+    text: "#1c2023"
+    cursor: "#c7ccd1"
   normal:
-    black: '#3B4252'
-    red: '#BF616A'
-    green: '#A3BE8C'
-    yellow: '#EBCB8B'
-    blue: '#81A1C1'
-    magenta: '#B48EAD'
-    cyan: '#88C0D0'
-    white: '#E5E9F0'
-
-  # Bright colors
+    black: "#1c2023"
+    red: "#c7ae95"
+    green: "#95c7ae"
+    yellow: "#aec795"
+    blue: "#ae95c7"
+    magenta: "#c795ae"
+    cyan: "#95aec7"
+    white: "#c7ccd1"
   bright:
-    black: '#4C566A'
-    red: '#BF616A'
-    green: '#A3BE8C'
-    yellow: '#EBCB8B'
-    blue: '#81A1C1'
-    magenta: '#B48EAD'
-    cyan: '#8FBCBB'
-    white: '#ECEFF4'
-theme: Nord
+    black: "#747c84"
+    red: "#c7ae95"
+    green: "#95c7ae"
+    yellow: "#aec795"
+    blue: "#ae95c7"
+    magenta: "#c795ae"
+    cyan: "#95aec7"
+    white: "#f3f4f5"
+theme: Ashes.dark
