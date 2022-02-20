@@ -241,35 +241,38 @@ live_config_reload: true
 #  args:
 #    - --login
 # Startup directory
-#
+key_bindings:
+  - { key: V, mods: Control, action: Paste }
+
 # Directory the shell is started in. If this is unset, or `None`, the working
 # directory of the parent process will be used.
 working_directory: None
 colors:
-  name: Ashes (dark)
-  author: Chris Kempson
+  # Default colors
   primary:
-    background: "#1c2023"
-    foreground: "#c7ccd1"
-  cursor:
-    text: "#1c2023"
-    cursor: "#c7ccd1"
+    #original background: '#2e3340'
+    background: '#292e39'
+    foreground: '#D8DEE9'
+
+  # Normal colors
   normal:
-    black: "#1c2023"
-    red: "#c7ae95"
-    green: "#95c7ae"
-    yellow: "#aec795"
-    blue: "#ae95c7"
-    magenta: "#c795ae"
-    cyan: "#95aec7"
-    white: "#c7ccd1"
+    black: '#3B4252'
+    red: '#BF616A'
+    green: '#A3BE8C'
+    yellow: '#EBCB8B'
+    blue: '#81A1C1'
+    magenta: '#B48EAD'
+    cyan: '#88C0D0'
+    white: '#E5E9F0'
+
+  # Bright colors
   bright:
-    black: "#747c84"
-    red: "#c7ae95"
-    green: "#95c7ae"
-    yellow: "#aec795"
-    blue: "#ae95c7"
-    magenta: "#c795ae"
-    cyan: "#95aec7"
-    white: "#f3f4f5"
-theme: Ashes.dark
+    black: '#4C566A'
+    red: '#BF616A'
+    green: '#A3BE8C'
+    yellow: '#EBCB8B'
+    blue: '#81A1C1'
+    magenta: '#B48EAD'
+    cyan: '#8FBCBB'
+    white: '#ECEFF4'
+theme: Nord
