@@ -9,6 +9,7 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'rebelot/kanagawa.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'ful1e5/onedark.nvim'
+Plug 'RRethy/nvim-base16'
 Plug 'morhetz/gruvbox'
 call plug#end()
 
@@ -16,7 +17,7 @@ lua << END
 require('lualine').setup({
   options = {
     icons_enabled = true,
-    theme = 'nord',
+    theme = 'gruvbox',
     component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {},
@@ -43,5 +44,5 @@ require('lualine').setup({
 })
 END
 
-colorscheme nord
+colorscheme gruvbox
 syntax on
