@@ -17,7 +17,7 @@ lua << END
 require('lualine').setup({
   options = {
     icons_enabled = true,
-    theme = 'gruvbox',
+    theme = 'nord',
     component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {},
@@ -44,5 +44,5 @@ require('lualine').setup({
 })
 END
 
-colorscheme gruvbox
+colorscheme nord 
 syntax on
