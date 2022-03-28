@@ -1,0 +1,62 @@
+{
+    "Reddit": {
+        "searchURL": "https://www.google.com/search?q=%s+site%3Areddit.com",
+        "iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAQlBMVEVHcEz/RQD/RQD/QgD/RQD/RQD/RQD/RQD/RQD/RQD/////MgD/OgD/s5//z8P/a0T/5d3/VyH/iGr/qJP/mYD/+vcCA1U1AAAACnRSTlMAJP//y5WUn+ElsgVe0gAAAJFJREFUGJVtT1sOwyAMy0JpIa/C2t3/qjNQaT+zkMAmD5sIqLkwl1zpwcEPjsW3ScxMefv9m7u3WVNXdXJ9Q+BKGYRN+62miXmnMvg7WotT8SzE6ZQHHzkTL+HuIv2SKRTWkHCRC5eiJWOCSJvnNgzFWrtQ4iGuY+0wZt0jHFuWeVhPpmpwsf0PR/TaR/x9xv8CYoYGnu4Mr1kAAAAASUVORK5CYII=",
+        "keyword": "rdt"
+    },
+    "Amazon": {
+        "searchURL": "https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=%s",
+        "iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABy0lEQVQ4jY2TP2hTURjFf09zM1UbcGmID9xEFEyyCTo1b6uLxuCS1e4Fg4tuIlhczMMti0NwadOho9DNf7wpCCYdDEL7njWgiU87NOBxeGmavryKB+5wv8t3vnPuuRdJaUnPJO3o/7Ez7klbkp4AD5jC9vY2jUaDz70elmVxc2mJarVKAlaRFExTe56n08YoFVu1Wi1JSYCkwXTl3vKyUsao5DjqdDqT/XnbTiIYWJIGwPyhpiAI8H2f4XDIzzCk2WzSarUAGB0cxC0MZxR0u13li8UZCyljEhXMENypVJQyRvliUb7vq+66/yQ4Fdd0KLdcLpPNZmm325OzMAxnc4gryBcKk4klxzmWSN11T7Dw259UPM9TzraVMkY521bddVWuVLToOAq/B/rTeSl9WInWJIXNy/NcX4fMxaTHcoSt2zB3AdIZ+PQI7mqcwu5r6RXS+xUp9OMyj/BrV+qtST860tq52Dv40oJ3t6JJmRuw4IA5CwIsC/a2YG8Drq1H9f4buPpwaEkKgAUA+h58fAzfNqJGxv0Ac5eg8BxyJRiN0zBnvlqSngL3j3kddKH/FkbDiCFzBXKLSbeyiqLv/ELS/snmZ7A/7kn/BXFbL8ajtAhKAAAAAElFTkSuQmCC",
+        "keyword": "amzn"
+    },
+    "Drive": {
+        "searchURL": "https://www.google.com/search?q=%s+site%3Adrive.google.com",
+        "iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAkFBMVEVHcEzg4eL////6+/v////////4+fn9/v7x8vL9/f38/Pz+/v7///////////8dpUb+/PzqOy0xfvPR3/2938T8vQWEq/f79PAvqE7wfHXpMx/l7P08g/WRs/ntYVcjfep1v43ykYv51tR0ofa4zfrv+fdPqUf629fh8OXs04ONyJqNyZpjuHj5zK34qAD8yjs3yEdfAAAADnRSTlMADRWS0qBtLAR85TtHou17CO8AAAChSURBVBiVbY/HAoMgEESxizEjEHvX9P7/f5cF9ZZ32WW2DYxpAu55PGAbtguDay/vgHIxz4KCaQopmWop64mkkIQ90EtZVXVFFY8E4C37AijMHrPh+7kCB6LRW2Igy6g0KKWOQMx2WqD2vMvbHNjpI/fLqMc7dTJnXJyT8pWm49CSt8XXrUyIslmdcWpPH8+UAl+8+1jxt99ZTiRE5FjsHz8fNQziOWMtZgAAAABJRU5ErkJggg==",
+        "keyword": "cld"
+    },
+    "Maps": {
+        "searchURL": "https://www.google.com/maps/search/%s?hl=en&source=opensearch",
+        "iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAkFBMVEVHcEzg4eL////6+/v////////4+fn9/v7x8vL9/f38/Pz+/v7///////////8dpUb+/PzqOy0xfvPR3/2938T8vQWEq/f79PAvqE7wfHXpMx/l7P08g/WRs/ntYVcjfep1v43ykYv51tR0ofa4zfrv+fdPqUf629fh8OXs04ONyJqNyZpjuHj5zK34qAD8yjs3yEdfAAAADnRSTlMADRWS0qBtLAR85TtHou17CO8AAAChSURBVBiVbY/HAoMgEESxizEjEHvX9P7/f5cF9ZZ32WW2DYxpAu55PGAbtguDay/vgHIxz4KCaQopmWop64mkkIQ90EtZVXVFFY8E4C37AijMHrPh+7kCB6LRW2Igy6g0KKWOQMx2WqD2vMvbHNjpI/fLqMc7dTJnXJyT8pWm49CSt8XXrUyIslmdcWpPH8+UAl+8+1jxt99ZTiRE5FjsHz8fNQziOWMtZgAAAABJRU5ErkJggg==",
+        "keyword": "map"
+    },
+    "YouTube": {
+        "searchURL": "https://www.youtube.com/results?search_query=%s&page={startPage?}&utm_source=opensearch",
+        "iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAq0lEQVQ4jaWT0Q2DMAxEXyIGYAMygkdgBTZgRDaAETpC2CAbXD+giKoJbYklK4niO8tn20mixnwVGmiOm3MtYPurL8Qv+/lASgBIQjAK9KePkkBgN8AvNw+ECgnMn+r+tBihL8kBQLjuQtfBPMM0QQjZkN/a2LbFr2uCdYVh2MqIMRvSAI8igRmkdJUieiBPDd/AsA1U3SC5Y5neR9mAnHLLKXMCTgQ3rXobnzl8hRUj722/AAAAAElFTkSuQmCC",
+        "keyword": "yt"
+    },
+    "Wayback Machine": {
+        "searchURL": "https://web.archive.org/web/*/%s",
+        "iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAUVBMVEUAAAABAQHFxcXKysoCAgLGxsaPj4/t7e2ZmZmRkZF/f3+1tbWrq6tzc3PV1dWEhIR5eXlJSUm9vb3W1tYsLCwUFBTl5eXf398mJiZhYWFnZ2fK/tYjAAAAgklEQVQYlVWOCQ7DIAwEFzAkYEKh6f3/h9YGojYjtIIRXhnGEBE6ZAQYfbVQ8qZOBLCtxTnvXLlWMSJ2d1BuIgipXuo46a5NiA94j7jA29EhV2un6AwRev6JeBZ+5ihdZqn8IC1NO5iRnpqyhwFnzpk1+aWbthgO4lsa0NYfnz5ygr6IawTxnOswKgAAAABJRU5ErkJggg==",
+        "keyword": "ia"
+    },
+    "Trading View": {
+        "searchURL": "https://in.tradingview.com/chart/OdmBkwsq/?symbol=%s",
+        "iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAANlBMVEVHcEwKDx0AAhSdnqASFiIAAAL///8TFyITFyITFyJRUle3uLk6PEPHyMng4OB4eX1oaW3y8/Od40HaAAAACnRSTlMA////////9o+OeWUXhQAAAHZJREFUGJVlj1sWwyAIBRG5GCXGZv+bLcT0YTsf4BnAA0S1yJuyEW2yUKmsopD8QJIQJDAzwEJp16Cd2obqgZd4qObDE7vo3V9tmFdOzD+yC8C8KYTIJZh9MMlHROiYgofZjmzW7g7xBdIMLv5Wr6uIc7/Pr/QE2g8FWF9Kv84AAAAASUVORK5CYII=",
+        "keyword": "chrt"
+    },
+    "Subreddit": {
+        "searchURL": "https://www.reddit.com/r/%s/",
+        "iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAQlBMVEVHcEz/RQD/RQD/QgD/RQD/RQD/RQD/RQD/RQD/RQD/////MgD/OgD/s5//z8P/a0T/5d3/VyH/iGr/qJP/mYD/+vcCA1U1AAAACnRSTlMAJP//y5WUn+ElsgVe0gAAAJFJREFUGJVtT1sOwyAMy0JpIa/C2t3/qjNQaT+zkMAmD5sIqLkwl1zpwcEPjsW3ScxMefv9m7u3WVNXdXJ9Q+BKGYRN+62miXmnMvg7WotT8SzE6ZQHHzkTL+HuIv2SKRTWkHCRC5eiJWOCSJvnNgzFWrtQ4iGuY+0wZt0jHFuWeVhPpmpwsf0PR/TaR/x9xv8CYoYGnu4Mr1kAAAAASUVORK5CYII=",
+        "keyword": "sr"
+    },
+    "Twitter": {
+        "searchURL": "https://twitter.com/search?q=%s&src=typed_query",
+        "iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAMFBMVEVHcEwcmfAcm/Adm/Acm/Acme8dmu8dm/Adm/AcnPAdm/AWf9IdmvEcm/Adm/Adm/CWvBALAAAAD3RSTlMAOIHaTB1vd+9rnQFfkMDUJmMhAAAAYUlEQVQYlY1P2xaAIAgDFdOo9v9/G2hpPXROe9rGuBH9B4eNSIyk0PQCoEQ2VrG6AUepxsTIztyMVuIDA96tMjWSJzRPo++T8uy4NzriuCl1rZeK77xN5RwyP79Qy+rnjyfcLgVsSsFhBQAAAABJRU5ErkJggg==",
+        "keyword": "twt"
+    },
+    "Imdb": {
+        "searchURL": "http://www.imdb.com/find?s=all&q=%s",
+        "iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAY1BMVEX1xRgAAAD4xxj3xxj6yRj3xhj+zBmohxDhtRbMpBRzXAs9MQV6Ygy6lRLbsBXPpxSujBEwJwSIbQ1CNQZfTAmigg/vwBcUEAGNcg2EaQ0aFQMnIAQ1KwVuWAorIwQODAEhGgO6BOjbAAAAbUlEQVQYla2PWQ7DIAxEM3YMzlLoQusmLSX3P2UhuULsjyc/jTRy150yPfdUt0KO+zL44KP3elVqwt1GjLjjkfB8tYybZhjeWNL6MXcIs28TlrGLX8aUFpSMrTTBQWNQjYNU7D3MxCJEUnHOI39joASdL/Uc7AAAAABJRU5ErkJggg==",
+        "keyword": "mov"
+    },
+    "1337x.to": {
+        "searchURL": "https://1337x.to/srch?search=%s",
+        "iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB8UlEQVQ4jcWTsWsUYRDF38z37WbvAkJEBIVDREEEETsbG1GwMJXapLSxUEvTRSxEUsVeFALaWIighZg/QRBMEEFEBEE9Qkji5e72dm935lmEmMilS+E0M8384M17IySxl9I9bQOIW8PPqZNX030TdylKB5Kq25lnOZijRmg6dj47eHgWIWZQzer29xeHni7O/AOoB/kHaAyh0TxFUYR07JZX5fParR0b4zdF9SxEwKr0apC/H5HgZt+qvDstdVUqHSFJjyLEK6J6TrPG5Natqu7v+1B9PSIhxAgBFqwsXoroFElo1pxWDesQySCKKu99qnsbjyDiIwDZbKyL/mwI8RKSdH9MsxZDbEmI8HJQD398nbNy0IZs3/7vRDPQDDD7aEX+OIQIiEBjgHfXUXxZelcs/3pW93uouxujLtR5DyChjXFNsmYLIrC8By6vwTqr8Gp4QEQmUFUru9oIcFOHVRe837lmq22wyAEzaJIgJOkJjbxd1/W9nYBtMcMCGJZjWvbv2NpyyrwLd1t0kTc70nqdwDHuBnAzkH6ZxEXRAIrCzB+62Yy59+kOiLQA3CAZRgHkcYg8AKAkQfIzybcUWXLnAkTgZlDVaQEmR3MQwukQQkFyEUDi7k9EZGXTYs67+xGSIcaYDd3PAHgFAPLfv/EPJs4IQHNr/+kAAAAASUVORK5CYII=",
+        "keyword": "tor"
+    },
+    "wallhaven.cc": {
+        "searchURL": "https://wallhaven.cc/search?q=%s&pk_campaign=openSearch",
+        "iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAATCAYAAACZZ43PAAACjElEQVQ4jaWUvUokWRTHf/ejq9ueYBY0EIRxBR3ENTMRbXwAX2GGxUAwGfYFBNlJTF12MWvxKbZFzAxmQDpRdzZYdnYSQWsCnVGrq+p+btBWrRNs5IHDOXDP+d17//cDnmji06d/fvTe/2Stm48xJkIIAfAQvrEYIw9jVkr1R6OhfxV/fvjQ11q/HGm3nzWbTSmlAmINGMZIjAydgClNHGRZZqz9S+ZFMa8bjWdSShlCwHtHCIEQAjHGh7yKnugDQgjRSJK2KcsfpHMuUUrJqjjG+L9ujOHnt2/Z2NhAKSWd94n2wYsYA97/t1cpFZUEQoghgMj29javXr9m8sULvPeEEIT0zuOcr5dtjKHX+539/X06nQ5pmgLw/t177u/v+X5ysq71PvCwb18vf2dnh6mpKZaWlpidnWV8fBwhBAcHBywvLz/SZaiXdM7VgBACvV6PmZkZ+v0+CwsLKKWQUnJycsLi4mINqHp0BZBSIoRgZWWFEAJHR0dMTEzQ7XbJsoxWq8XY2BjW2hrgnENXiRACIQSbm5s457i8vKTb7dJsNjk8POTq6grvfd1YTayddVhrq4sJQL/fp9PpEImUZcnp6Slzc3NYa+tm54Z9sjQlxhiMMVhryLKMs7Mz1tfXKYuSsiw5Pz9nenq6rnvs0hhDURSkacra2hpbW1usrq4ipaQoCvI85+Ligt3dXY6PjynLIbQoCqy1iL29PTM6OqpHRkZEkiQ0Gg201iilal2AWjhrLcYaBtkgXl/fOH1zc30e4eV3z5+32+22dM6hlPoGUF3lCpDneby9vR18/frlb52mn38rS/MmH+TzrVaSKKWF1ro+1sdPuToFa627u7v7+DlNf3nqf/J0+xc1vu6WsdDfogAAAABJRU5ErkJggg==",
+        "keyword": "wal"
+    }
+}
