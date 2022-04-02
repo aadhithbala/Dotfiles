@@ -1,3 +1,29 @@
+/* Change background of New Tab */
+@-moz-document url("about:home"), url("about:newtab") {
+  body {
+   background: #242933 !important;
+  }
+  }
+
+  /*Change Firefox Logo on NewTab*/
+
+@-moz-document url("about:home"), url("about:newtab"){
+  .search-wrapper .logo-and-wordmark .logo{
+    background-image: url("Nord_Fox.png") !important;
+  }
+}
+
+.wordmark {
+  fill: #88c0d0 !important;
+}
+
+.logo-and-wordmark {
+  align-items: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 49px !important;
+}
+
 @-moz-document url(about:privatebrowsing) {
 
 /* Removes the VPN ad */
@@ -10,36 +36,21 @@
 }
 
 
-
-/* Gets rid of search bar in private browsing mode */
-html.private div.showPrivate div.search-inner-wrapper, html.private div.showPrivate div.info {
-    display: none !important;
-}
-
-
-
-/* Hides the "You're in private browsing mode" dialog */
-.info {
-    display: none !important;
-}
-
-
-
 /* Changes the logo on the private browsing home screen */
 html.private .logo {
-    background-image: url("firefox_halo_with_paw_private.png") !important;
+	background-image: url("Nord_Private_Fox.png") !important;
 }
 
 
 
 /* Changes the color of the wordmark */
 .wordmark {
-  fill: #88C0D0 !important;
+  fill: #88c0d0 !important;
 }
 
 
 
-/* Centers logo and wordmark */
+/* Centers private logo and wordmark */
 .logo-and-wordmark {
   align-items: center !important;
   display: flex !important;
@@ -49,15 +60,10 @@ html.private .logo {
 
 
 
-/* Changes the home screen color */
+/* Changes the private home screen color */
 html.private {
-    --in-content-page-background: #20242c !important;}
+    --in-content-page-background: #242933 !important;}
 
 
 
 
-html.private .logo {
-    background-image: url("firefox_halo_with_paw_private.png") !important;
-}
-
-.logo {background-image: url("firefox_halo_with_paw_red.png") !important;}
