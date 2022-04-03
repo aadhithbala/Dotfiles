@@ -7,7 +7,7 @@
 ![Hackershit](src/htop.png)
 ![Firefox](src/firefox.png)
 ![Files](src/files.png)
-![Overview](src/overview.png)
+![Spotify](src/spotify.png)
 
 ## Zsh
 
