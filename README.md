@@ -6,8 +6,8 @@
 ![Qbit](src/qbit.png)
 ![Hackershit](src/htop.png)
 ![Firefox](src/firefox.png)
-![calendar](src/calendar.png)
-![Files](src/files.png.png)
+![Files](src/files.png)
+![Overview](src/overview.png)
 
 ## Zsh
 
