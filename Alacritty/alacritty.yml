@@ -1,257 +1,11 @@
-# Configuration for Alacritty, the GPU enhanced terminal emulator.
-
-# Import additional configuration files
-#
-# Imports are loaded in order, skipping all missing files, with the importing
-# file being loaded last. If a field is already present in a previous import, it
-# will be replaced.
-#
-# All imports must either be absolute paths starting with `/`, or paths relative
-# to the user's home directory starting with `~/`.
-#import:
-#  - /path/to/alacritty.yml
-# Any items in the `env` entry below will be added as
-# environment variables. Some entries may override variables
-# set by alacritty itself.
-#env:
-# TERM variable
-#
-# This value is used to set the `$TERM` environment variable for
-# each instance of Alacritty. If it is not present, alacritty will
-# check the local terminfo database and use `alacritty` if it is
-# available, otherwise `xterm-256color` is used.
-#TERM: xterm-256color
-window:
-  # Window dimensions (changes require restart)
-  #
-  # Specified in number of columns/lines, not pixels.
-  # If both are `0`, this setting is ignored.
-  dimensions:
-    columns: 85
-    lines: 25
-
-  # Window position (changes require restart)
-  #
-  # Specified in number of pixels.
-  # If the position is not set, the window manager will handle the placement.
-  #position:
-  #  x: 0
-  #  y: 0
-  # Window padding (changes require restart)
-  #
-  # Blank space added around the window in pixels. This padding is scaled
-  # by DPI and the specified value is always added at both opposing sides.
-  padding:
-    x: 8
-    y: 8
-
-  # Spread additional padding evenly around the terminal content.
-  dynamic_padding: true
-
-  # Window decorations
-  #
-  # Values for `decorations`:
-  #     - full: Borders and title bar
-  #     - none: Neither borders nor title bar
-  #
-  # Values for `decorations` (macOS only):
-  #     - transparent: Title bar, transparent background and title bar buttons
-  #     - buttonless: Title bar, transparent background, but no title bar buttons
-  decorations: full
-  # Startup Mode (changes require restart)
-  #
-  # Values for `startup_mode`:
-  #   - Windowed
-  #   - Maximized
-  #   - Fullscreen
-  #
-  # Values for `startup_mode` (macOS only):
-  #   - SimpleFullscreen
-  #startup_mode: Windowed
-  # Window title
-  title: Terminal
-  # Window class (Linux only):
-  #class:
-  # Application instance name
-  #instance: Alacritty
-  # General application class
-  #general: Alacritty
-  # GTK theme variant (Linux only)
-  #
-  # Override the variant of the GTK theme. Commonly supported values are `dark` and `light`.
-  # Set this to `None` to use the default theme variant.
-  #gtk_the:Lme_variant: None
-  # Allow terminal applications to change Alacritty's window title.
-  dynamic_title: false
-
-scrolling:
-  # Maximum number of lines in the scrollback buffer.
-  # Specifying '0' will disable scrolling.
-  history: 10000
-
-  # Number of lines the viewport will move for every line scrolled when
-  # scrollback is enabled (history > 0).
-  multiplier: 3
-
-font:
-  # Normal (roman) font face
-  normal:
-    # Font family
-    #
-    #56Default:
-    #   - (macOS) Menlo
-    #   - (Linux) monospace
-    #   - (Windows) Consolas
-    family: "Liga SFMono Nerd Font"
-    # The `style` can be specified to pick a specific face.
-    style: Medium
-  # Bold font face
-  #bold:
-  # Font family
-  #
-  # If the bold family is not specified, it will fall back to the
-  # value specified for the normal font.
-  #family: monospace
-  # The `style` can be specified to pick a specific face.
-  #style: Bold
-  # Italic font face
-  #italic:
-  # Font family
-  #
-  # If the italic family is not specified, it will fall back to the
-  # value specified for the normal font.
-  #family: monospace
-  # The `style` can be specified to pick a specific face.
-  #style: Italic
-  # Bold italic font face
-  #bold_italic:
-  # Font family
-  #
-  # If the bold italic family is not specified, it will fall back to the
-  # value specified for the normal font.
-  #family: monospace
-  # The `style` can be specified to pick a specific face.
-  #style: Bold Italic
-  # Point size
-  size: 16
-  # Offset is the extra space around each character. `offset.y` can be thought of
-  # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
-  #offset:
-  #x: 0
-  #y: 0
-  # Glyph offset determines the locations of the glyphs within their cells with
-  # the default being at the bottom. Increasing `x` moves the glyph to the right,
-  # increasing `y` moves the glyph upwards.
-  #glyph_offset:
-  #x: 0
-  #y: 0
-  # Thin stroke font rendering (macOS only)
-  #
-  # Thin strokes are suitable for retina displays, but for non-retina screens
-  # it is recommended to set `use_thin_strokes` to `false`
-  #
-  # macOS >= 10.14.x:
-  #
-  # If the font quality on non-retina display looks bad then set
-  # `use_thin_strokes` to `true` and enable font smoothing by running the
-  # following command:
-  #   `defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO`
-  #
-  # This is a global setting and will require a log out or restart to take
-  # effect.
-  #use_thin_strokes: true
-
-# If `true`, bold text is drawn using the bright color variants.
-draw_bold_text_with_bright_colors: false
-# Visual Bell
-#
-# Any time the BEL code is received, Alacritty "rings" the visual bell. Once
-# rung, the terminal background will be set to white and transition back to the
-# default background color. You can control the rate of this transition by
-# setting the `duration` property (represented in milliseconds). You can also
-# configure the transition function by setting the `animation` property.
-# Values for `animation`:
-#   - Ease
-#   - EaseOut
-#   - EaseOutSine
-#   - EaseOutQuad
-#   - EaseOutCubic
-#   - EaseOutQuart
-#   - EaseOutQuint
-#   - EaseOutExpo
-#   - EaseOutCirc
-#   - Linear
-#
-# Specifying a `duration` of `0` will disable the visual bell.
 bell:
   animation: EaseOut
-  duration: 0
   color: '0xffffff'
-
-# Background opacity
-#
-# Window opacity as a floating point number from `0.0` to `1.0`.
-# The value `0.0` is completely transparent and `1.0` is opaque.
-#background_opacity: 1.0
-selection:
-  semantic_escape_chars: ",│`|:\"' ()[]{}<>="
-  # When set to `true`, selected text will be copied to the primary clipboard.
-cursor:
-  style:
-    # Cursor style
-    shape: Underline
-    # Values for `style`:
-    #   - ▇ Block
-    #   - _ Underline
-    #   - | Beam
-    blinking: Always
-
-  blink_interval: 350
-  # Cursor blinking state
-  #
-  # Values for `blinking`:
-  #   - Never: Prevent the cursor from ever blinking
-  #   - Off: Disable blinking by default
-  #   - On: Enable blinking by default
-  #   - Always: Force the cursor to always blink
-  save_to_clipboard: false
-
-  vi_mode_style: none
-  # Cursor blinking interval in milliseconds.
-  # If this is `true`, the cursor will be rendered as a hollow box when the
-  # window is not focused.
-  unfocused_hollow: true
-  # Thickness of the cursor relative to the cell width as floating point number
-  # from `0.0` to `1.0`.
-  thickness: 0.15
-
-# Live config reload (changes require restart)
-live_config_reload: true
-
-# Shell
-# You can set `shell.program` to the path of your favorite shell, e.g. `/bin/fish`.
-# Entries in `shell.args` are passed unmodified as arguments to the shell.
-#
-# Default:
-#   - (macOS) /bin/bash --login
-#   - (Linux) user login shell
-#   - (Windows) powershell
-#shell:
-#  program: /bin/bash
-#  args:
-#    - --login
-# Startup directory
-key_bindings:
-  - { key: V, mods: Control, action: Paste }
-
-# Directory the shell is started in. If this is unset, or `None`, the working
-# directory of the parent process will be used.
-working_directory: None
+  duration: 0
 colors:
   # Default colors
   primary:
-    #original background: '#2e3340'
-    background: '#292e39'
+    background: '#242933'
     foreground: '#D8DEE9'
 
   # Normal colors
@@ -275,4 +29,45 @@ colors:
     magenta: '#B48EAD'
     cyan: '#8FBCBB'
     white: '#ECEFF4'
+cursor:
+  blink_interval: 350
+  save_to_clipboard: false
+  style:
+    blinking: Always
+    shape: Underline
+  thickness: 0.15
+  unfocused_hollow: true
+  vi_mode_style: none
+draw_bold_text_with_bright_colors: false
+font:
+  bold:
+    family: Liga SFMono Nerd Font
+  italic:
+    family: Liga SFMono Nerd Font
+  normal:
+    family: Liga SFMono Nerd Font
+    style: Medium
+  size: 16.0
+key_bindings:
+  - action: Paste
+    key: V
+    mods: Control
+live_config_reload: true
+scrolling:
+  history: 10000
+  multiplier: 3
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>="
 theme: Nord
+window:
+  decorations: full
+  dimensions:
+    columns: 83
+    lines: 24
+  dynamic_padding: true
+  dynamic_title: false
+  padding:
+    x: 8
+    y: 8
+  title: Terminal
+working_directory: None
