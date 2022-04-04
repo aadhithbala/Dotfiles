@@ -1,4 +1,5 @@
 ## Instructions
 
-- Paste this under /.config/sublime-text/Packages/User/
+```cd Dotfiles/Sublime-Text```
 
+```cp -rf * ~/.config/sublime-text/Packages/Users/```
