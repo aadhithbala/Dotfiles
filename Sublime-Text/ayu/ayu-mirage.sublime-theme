@@ -4,7 +4,7 @@
 		"settings": [
 			"!ui_native_titlebar"
 		],
-		"bg": "#242936",
+		"bg": "#242933",
 		"fg": "#cccac2"
 	},
 	{
@@ -24,7 +24,7 @@
 			0
 		],
 		"layer0.opacity": 1,
-		"layer0.tint": "#242936"
+		"layer0.tint": "#242933"
 	},
 	{
 		"class": "sidebar_container",
@@ -476,7 +476,7 @@
 		"tab_overlap": 0,
 		"tab_height": 38,
 		"tab_width": 100,
-		"layer0.tint": "#242936",
+		"layer0.tint": "#242933",
 		"layer0.opacity": 1,
 		"content_margin": [
 			10,
@@ -611,7 +611,7 @@
 			"speed": 1,
 			"interpolation": "smoothstep"
 		},
-		"layer1.tint": "#242936",
+		"layer1.tint": "#242933",
 		"layer2.opacity": 1
 	},
 	{
@@ -1527,7 +1527,7 @@
 	},
 	{
 		"class": "panel_control",
-		"layer0.tint": "#242936",
+		"layer0.tint": "#242933",
 		"layer0.opacity": 1,
 		"content_margin": [
 			0,
@@ -1573,7 +1573,7 @@
 	{
 		"class": "status_bar",
 		"layer0.texture": "",
-		"layer0.tint": "#242936",
+		"layer0.tint": "#242933",
 		"layer0.opacity": 1,
 		"layer1.texture": "ayu/assets/separator-top.png",
 		"layer1.tint": "#161921",

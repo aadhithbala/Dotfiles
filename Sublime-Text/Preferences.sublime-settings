@@ -14,10 +14,10 @@
     "enable_tab_scrolling": false,
     "ensure_newline_at_eof_on_save": true,
 	"theme": "ayu-mirage.sublime-theme",
-	"font_size": 14,
+	"font_size": 15,
 	"ui_scale": 1.2,
-    "color_scheme": "Packages/User/Nord/Nord.sublime-color-scheme",
-	"font_face": "JetBrainsMono Nerd Font",
+    "color_scheme": "Nord.sublime-color-scheme",
+	"font_face": "Liga SFMono Nerd Font Medium",
 	"font_options":
     [
         "subpixel_antialias",
