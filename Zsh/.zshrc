@@ -109,6 +109,10 @@ if [ -x "$(command -v exa)" ]; then
     alias ls="exa --icons"
     alias la="exa --long --icons --all --group"
     alias lt="exa --tree --icons"
+    alias lt1="exa --tree --icons --level=1"
+    alias lt2="exa --tree --icons --level=2"
+    alias lt3="exa --tree --icons --level=3"
+    alias lt4="exa --tree --icons --level=4"
 fi
 alias dl="cd ~/Downloads/"
 alias update="sudo pacman -Syu"
