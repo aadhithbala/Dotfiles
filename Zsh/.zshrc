@@ -114,7 +114,11 @@ if [ -x "$(command -v exa)" ]; then
     alias lt3="exa --tree --icons --level=3"
     alias lt4="exa --tree --icons --level=4"
 fi
+
 alias dl="cd ~/Downloads/"
+alias warp-on="warp-cli connect"
+alias warp-off="warp-cli disconnect"
+alias warp-status="curl https://www.cloudflare.com/cdn-cgi/trace/"
 alias update="sudo pacman -Syu"
 alias dots="cd ~/Documents/Dotfiles"
 # alias zshconfig="mate ~/.zshrc"
