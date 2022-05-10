@@ -1,0 +1,70 @@
+/* Change background of New Tab */
+@-moz-document url("about:home"), url("about:newtab") {
+  body {
+   background: #1d2021 !important;
+  }
+  }
+
+  /*Change Firefox Logo on NewTab*/
+
+@-moz-document url("about:home"), url("about:newtab"){
+  .search-wrapper .logo-and-wordmark .logo{
+    background-image: url("Gruvbox_Fox.png") !important;
+  }
+}
+
+.wordmark {
+  fill: #8ec07c !important;
+}
+
+.logo-and-wordmark {
+  align-items: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 49px !important;
+}
+
+@-moz-document url(about:privatebrowsing) {
+
+/* Removes the VPN ad */
+#private-browsing-vpn-text {
+    display: none !important;
+}
+
+#private-browsing-vpn-link {
+    display: none !important;
+}
+
+
+/* Changes the logo on the private browsing home screen */
+html.private .logo {
+	background-image: url("Gruvbox_Private_Fox.png") !important;
+}
+
+
+
+/* Changes the color of the wordmark */
+.wordmark {
+  fill: #8ec07c !important;
+}
+
+
+
+/* Centers private logo and wordmark */
+.logo-and-wordmark {
+  align-items: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 49px !important;
+}
+
+
+
+/* Changes the private home screen color */
+html.private {
+    --in-content-page-background: #1d2021 !important;}
+
+
+
+
+
