@@ -1272,9 +1272,9 @@ StScrollBar {
 .list-search-results {
   spacing: 3px; }
 
-.search-section-separator {
+/*.search-section-separator {
   height: 2px;
-  background-color: #434c5e; }
+  background-color: #434c5e; }*/
 
 .list-search-result-content {
   spacing: 30px; }
@@ -1359,7 +1359,7 @@ StScrollBar {
   .grid-search-result:hover .overview-icon,
   .grid-search-result:focus .overview-icon,
   .grid-search-result:selected .overview-icon {
-    background-color: #A3BE8C;
+    background-color: #88c0d0;
     color: #242933;
     transition-duration: 0ms;
     border-image: none;
