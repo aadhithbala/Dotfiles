@@ -1,7 +1,9 @@
 set termguicolors
 set guicursor=
+let ayucolor='mirage'
 
 call plug#begin()
+Plug 'ayu-theme/ayu-vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'arcticicestudio/nord-vim'
 Plug 'EdenEast/nightfox.nvim'
