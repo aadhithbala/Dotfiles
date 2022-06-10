@@ -1,7 +1,7 @@
 /* Change background of New Tab */
 @-moz-document url("about:home"), url("about:newtab") {
   body {
-   background: #282a36 !important;
+   background: #1e1f29 !important;
   }
   }
 
