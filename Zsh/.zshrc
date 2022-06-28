@@ -121,6 +121,8 @@ alias warp-off="warp-cli disconnect"
 alias warp-status="curl https://www.cloudflare.com/cdn-cgi/trace/"
 alias update="sudo pacman -Syu"
 alias dots="cd ~/Documents/Dotfiles"
+alias docs="cd ~/Documents/"
+alias kittens="kitty +kitten themes"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
