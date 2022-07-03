@@ -3,6 +3,7 @@ set guicursor=
 let ayucolor='mirage'
 
 call plug#begin()
+Plug 'tanvirtin/monokai.nvim'
 Plug 'ayu-theme/ayu-vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'arcticicestudio/nord-vim'
@@ -19,7 +20,7 @@ lua << END
 require('lualine').setup({
   options = {
     icons_enabled = true,
-    theme = 'nord',
+    theme = 'auto',
     component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {},
@@ -45,6 +46,5 @@ require('lualine').setup({
   extensions = {}
 })
 END
-
-colorscheme nord 
+colorscheme monokai_spectrum
 syntax on
