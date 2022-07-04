@@ -46,5 +46,5 @@ require('lualine').setup({
   extensions = {}
 })
 END
-colorscheme monokai_spectrum
+colorscheme octagon 
 syntax on
