@@ -1,0 +1,7 @@
+@media (prefers-color-scheme: dark) {
+    @-moz-document url("about:home"), url("about:newtab") {
+  body {
+   background: #191919 !important;
+  }
+  }
+}
