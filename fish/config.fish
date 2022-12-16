@@ -15,6 +15,7 @@ alias warp-off="warp-cli disconnect"
 alias warp-status="curl https://www.cloudflare.com/cdn-cgi/trace/"
 alias dots="cd ~/Documents/Dotfiles"
 alias docs="cd ~/Documents/"
+alias proj="cd $HOME/Documents/Projects/"
 alias kittens="kitty +kitten themes"
 
 # GitHub
