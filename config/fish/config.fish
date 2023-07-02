@@ -1,22 +1,28 @@
 # Removes the fish greetings at the terminal startup
 set fish_greeting
-
 # Aliases
 
 alias py="python3"
 alias nv="nvim"
-alias 'update'='sudo pacman -Sy && yay -Sy'
-alias 'upgrade'='sudo pacman -Syu && echo "UPGRADED"'
+alias 'update'='sudo apt update'
+alias 'upgrade'='sudo apt upgrade && echo "UPGRADED"'
 alias please=sudo
 alias fucking=sudo
 alias dl="cd ~/Downloads/"
 alias warp-on="warp-cli connect"
 alias warp-off="warp-cli disconnect"
 alias warp-status="curl https://www.cloudflare.com/cdn-cgi/trace/"
-alias update="sudo pacman -Syu"
-alias dots="cd ~/Documents/Dotfiles"
+alias dots="cd ~/Desktop/Dotfiles"
 alias docs="cd ~/Documents/"
+alias proj="cd $HOME/Documents/Projects/"
 alias kittens="kitty +kitten themes"
+
+# GitHub
+
+alias gs="git status"
+alias ga="git add ."
+alias gc="git commit -m"
+alias gp="git push"
 
 # exa alias
 
@@ -27,6 +33,10 @@ alias lt1="exa --tree --icons --level=1"
 alias lt2="exa --tree --icons --level=2"
 alias lt3="exa --tree --icons --level=3"
 alias lt4="exa --tree --icons --level=4"
+
+# roop alias
+
+alias roop="$HOME/.roop/roop/run.py"
 
 export SUDO_PROMPT="  Sudo Password ❱ "
 
